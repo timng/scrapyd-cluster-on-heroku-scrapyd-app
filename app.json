@@ -49,6 +49,6 @@
             "description": "Scrapyd basic authentication password",
             "value": "password",
             "required": true
-        },
+        }
     }
 }
