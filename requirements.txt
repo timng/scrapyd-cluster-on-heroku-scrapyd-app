@@ -1,6 +1,7 @@
 pip>=19.1.1
 #Twisted>=18.9.0
 scrapy
-scrapyd>=1.2.1
+#scrapyd>=1.2.1
+git+git://github.com/timng/scrapyd.git@master
 scrapy-redis
 logparser>=0.8.2
