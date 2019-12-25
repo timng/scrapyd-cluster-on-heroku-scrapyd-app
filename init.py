@@ -12,8 +12,8 @@ PASSWORD = os.environ['PASSWORD']
 with io.open("scrapyd.conf", 'r+', encoding='utf-8') as f:
     f.read()
     f.write(u'\nhttp_port = %s\n' % PORT)
-    # f.write(u'\nusername = %s\n' % USERNAME)
-    # f.write(u'\npassword = %s\n' % PASSWORD)
+    f.write(u'\nusername = %s\n' % USERNAME)
+    f.write(u'\npassword = %s\n' % PASSWORD)
 
 
 # Launch LogParser as a subprocess
