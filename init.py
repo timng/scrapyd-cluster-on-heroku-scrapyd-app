@@ -7,9 +7,13 @@ from subprocess import Popen
 # https://devcenter.heroku.com/articles/runtime-principles#web-servers
 # The port to bind to is assigned by Heroku as the PORT environment variable.
 PORT = os.environ['PORT']
+USERNAME = os.environ['USERNAME']
+PASSWORD = os.environ['PASSWORD']
 with io.open("scrapyd.conf", 'r+', encoding='utf-8') as f:
     f.read()
     f.write(u'\nhttp_port = %s\n' % PORT)
+    f.write(u'\nusername = %s\n' % USERNAME)
+    f.write(u'\npassword = %s\n' % PASSWORD)
 
 
 # Launch LogParser as a subprocess
