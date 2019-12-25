@@ -39,6 +39,16 @@
             "description": "The default is False, set it to True to change the logging level of LogParser from WARNING to DEBUG.",
             "value": "False",
             "required": false
-        }
+        },
+        "USERNAME": {
+            "description": "Scrapyd basic authentication username",
+            "value": "username",
+            "required": true
+        },
+        "PASSWORD": {
+            "description": "Scrapyd basic authentication password",
+            "value": "password",
+            "required": true
+        },
     }
 }
