@@ -5,3 +5,7 @@
 
 
 ## Or [deploy Scrapyd app (via git, unstable) in the browser](https://github.com/my8100/scrapyd-cluster-on-heroku-scrapyd-app-git)
+
+
+[![Run on Google
+Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
